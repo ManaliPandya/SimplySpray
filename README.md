@@ -1,12 +1,9 @@
-# My Scalatra Web App #
+# Spray WebService #
 
 ## Build & Run ##
 
 ```sh
-$ cd My_Scalatra_Web_App
-$ ./sbt
-> jetty:start
-> browse
+$ sbt run
 ```
 
-If `browse` doesn't launch your browser, manually open [http://localhost:8080/](http://localhost:8080/) in your browser.
+Launch your browser, manually open [http://localhost:8080/](http://localhost:8080/) in your browser.
