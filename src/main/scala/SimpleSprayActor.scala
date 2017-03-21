@@ -50,6 +50,8 @@ trait HttpRoutes extends  HttpService   {
           entity(as[Person]){p=>
             addData(p)
             complete("Inserted data.")
+//            modify our post call to read data
+//            complete(Person(p.name + "pandya", p.details))
           }
         }
       }
